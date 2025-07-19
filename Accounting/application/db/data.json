@@ -1,0 +1,66 @@
+{
+  "employees": [
+    {
+      "name": "Иван Иванов",
+      "position": "Разработчик",
+      "base_salary": 120000,
+      "hired_date": "2022-05-10",
+      "is_active": true
+    },
+    {
+      "name": "Мария Петрова",
+      "position": "HR",
+      "base_salary": 90000,
+      "hired_date": "2023-01-15",
+      "is_active": true
+    }
+  ],
+  "work_logs": [
+    {
+      "employee_name": "Иван Иванов",
+      "work_date": "2025-07-01",
+      "hours_worked": 8
+    },
+    {
+      "employee_name": "Мария Петрова",
+      "work_date": "2025-07-01",
+      "hours_worked": 7.5
+    }
+  ],
+  "bonuses": [
+    {
+      "employee_name": "Иван Иванов",
+      "amount": 10000,
+      "reason": "За перевыполнение плана",
+      "date_given": "2025-07-10"
+    }
+  ],
+  "penalties": [
+    {
+      "employee_name": "Мария Петрова",
+      "amount": 2000,
+      "reason": "Опоздание",
+      "date_given": "2025-07-05"
+    }
+  ],
+  "salaries": [
+    {
+      "employee_name": "Иван Иванов",
+      "month": "2025-07",
+      "base_amount": 120000,
+      "bonus_amount": 10000,
+      "penalty_amount": 0,
+      "total_amount": 0,
+      "generated_at": "2025-07-31"
+    },
+    {
+      "employee_name": "Мария Петрова",
+      "month": "2025-07",
+      "base_amount": 90000,
+      "bonus_amount": 0,
+      "penalty_amount": 2000,
+      "total_amount": 0,
+      "generated_at": "2025-07-31"
+    }
+  ]
+}
